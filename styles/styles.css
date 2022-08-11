@@ -1,0 +1,43 @@
+    body{
+        background: linear-gradient(to left, rgb(162, 255, 57), rgba(0, 0, 0, 0.094), rgb(255, 110, 110))
+    }
+    
+    .center{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        text-shadow: 5px 8px 3px rgba(10, 0, 84, 0.638);
+    }
+    
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+  }
+  
+    .card {
+    background: #e7e7e7;
+    border-radius: 7px;
+    padding: 0 10px;
+    border: 2px solid gray;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(136, 50, 72, 0.335);
+    box-shadow: 1px 1px 25px rgba(1, 48, 101, 0.736);
+  }
+
+
+  button{
+    box-shadow: 20px 20px 5px rgba(17, 5, 109, 0.736);
+    text-shadow: 8px 2px 3px rgba(17, 5, 109, 0.736);
+    background-color: bisque;
+    text-align: center;
+    padding: 50px;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+}
